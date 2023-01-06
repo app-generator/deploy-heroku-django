@@ -19,7 +19,7 @@
 
 ## ✨ Deploy on HEROKU
 
-> Update Codebase & Dependencies
+> 👉 Update Codebase & Dependencies
 
 - add `django-heroku` to `requirements.txt`
 - add `Procfile` in the root of the project
@@ -32,7 +32,7 @@ django_heroku.settings(locals())
 
 <br />
 
-> Execute in the terminal (ROOT of the project)
+> 👉 Execute in the terminal (ROOT of the project)
 
 ```bash
 $ heroku login                         # This will open a browser
@@ -41,6 +41,8 @@ $ git push heroku master               # Compile & push the app LIVE
 $ heroku run python manage.py migrate  # Migrate the DB
 $ heroku open                          # Open the new app in the Browser
 ```
+
+At this point, the app should be LIVE and functional.
 
 <br />
 
