@@ -38,6 +38,7 @@ django_heroku.settings(locals())
 $ heroku login                         # This will open a browser
 $ heroku create                        # This will create the app on HEROKU (visible on the dashboard)
 $ git push heroku master               # Compile & push the app LIVE
+$ heroku buildpacks:set heroku/python  # Manually add the buildpack for Python 
 $ heroku run python manage.py migrate  # Migrate the DB
 $ heroku open                          # Open the new app in the Browser
 ```
