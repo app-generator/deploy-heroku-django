@@ -42,9 +42,9 @@ At this point, the app should be LIVE and functional.
 
 <br />
 
-## ✨ How to use it
+## Manual build  
 
-> Download the code 
+> 👉 Download the code 
 
 ```bash
 $ # Get the code
@@ -54,9 +54,7 @@ $ cd deploy-heroku-django
 
 <br />
 
-### 👉 Set Up for `Unix`, `MacOS` 
-
-> Install modules via `VENV`  
+> 👉 Install modules via `VENV`  
 
 ```bash
 $ virtualenv env
@@ -66,7 +64,7 @@ $ pip3 install -r requirements.txt
 
 <br />
 
-> Set Up Database
+> 👉 Set Up Database
 
 ```bash
 $ python manage.py makemigrations
@@ -75,7 +73,7 @@ $ python manage.py migrate
 
 <br />
 
-> Start the app
+> 👉 Start the app
 
 ```bash
 $ python manage.py runserver
